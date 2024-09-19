@@ -1,0 +1,101 @@
+/*reset*/
+
+body {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  background-color: black;
+  background: radial-gradient(#020202, #222222);
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  /* font-family: "Oswald", sans-serif; */
+  /* font-family: "Stardos Stencil", sans-serif; */
+  /* font-family: "Big Shoulders Stencil Text", sans-serif; */
+  font-family: "Merriweather", sans-serif;
+
+  /* text-transform: uppercase; */
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+a,
+a:visited {
+  color: #efd516;
+}
+
+/*heading counter */
+body {
+  counter-reset: h2;
+}
+
+h2 {
+  counter-reset: h3;
+}
+
+h3 {
+  counter-reset: h4;
+}
+
+h4 {
+  counter-reset: h5;
+}
+
+h5 {
+  counter-reset: h6;
+}
+
+h2:before {
+  content: counter(h2, decimal) ". ";
+  counter-increment: h2;
+}
+
+h3:before {
+  content: counter(h2, decimal) "." counter(h3, decimal) ". ";
+  counter-increment: h3;
+}
+
+h4:before {
+  content: counter(h2, decimal) "." counter(h3, decimal) "."
+    counter(h4, decimal) ". ";
+  counter-increment: h4;
+}
+
+/*code*/
+pre {
+  width: fit-content;
+}
+
+body {
+  min-height: 80vh;
+  overflow: overlay;
+  overflow-x: hidden;
+  width: 100vw;
+}
+.menu,
+h2 {
+  text-align: center;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+section {
+  width: fit-content;
+  margin: 0 auto;
+}

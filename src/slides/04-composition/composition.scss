@@ -1,0 +1,25 @@
+.button {
+  font-size: 1.2rem;
+  color: white;
+  background-color: green;
+  &-large {
+    font-size: 1.6rem;
+  }
+}
+
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+
+.redAndBlue {
+  @extend .red;
+  @extend .blue;
+}
+
+.blueAndRed {
+  @extend .blue;
+  @extend .red;
+}

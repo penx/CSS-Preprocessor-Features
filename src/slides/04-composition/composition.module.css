@@ -1,0 +1,16 @@
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+
+.redAndBlue {
+  composes: red;
+  composes: blue;
+}
+
+.blueAndRed {
+  composes: blue;
+  composes: red;
+}
