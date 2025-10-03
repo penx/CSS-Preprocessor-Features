@@ -47,7 +47,7 @@ const Sections = [
     Component: RuntimeMerging,
   },
   { key: "variants", title: "Variants", Component: Variants },
-  { key: "more", title: "More", Component: More },
+  { key: "more", title: "Summary", Component: More },
 ];
 
 const Menu = ({ previous, next }: { previous?: string; next?: string }) => {
