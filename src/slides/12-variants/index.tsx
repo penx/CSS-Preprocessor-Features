@@ -1,9 +1,17 @@
 export const Variants = () => (
   <section>
-    <p>In an app, you often write less abstractions, with one component per purpose</p>
-    <p>In a design system, there are a lot of abstractions, with multiple ways to use the same component</p>
     <p>
-      On a component level and a styles level, it's good to have a consistent API for managing these abstractions - both in terms of the props you give to the component and the way you write the CSS.
+      In an app, you often write less abstractions, with one component per
+      purpose
+    </p>
+    <p>
+      In a design system, there are a lot of abstractions, with multiple ways to
+      use the same component
+    </p>
+    <p>
+      On a component level and a styles level, it's good to have a consistent
+      API for managing these abstractions - both in terms of the props you give
+      to the component and the way you write the CSS.
     </p>
     <p>As per our previous button and button-large</p>
     <h4>Examples variants for a button</h4>
@@ -32,8 +40,25 @@ export const Variants = () => (
       On small breakpoints the button should be primary, on large breakpoints it
       should be secondary.
     </p>
-    <h3><a href="https://cva.style/docs">CVA</a></h3>
-    <h3><a href="https://panda-css.com/docs/concepts/recipes#atomic-recipe-or-cva">Panda recipes</a></h3>
-    <p>Panda <a href="https://panda-css.com/docs/concepts/slot-recipes">slot recipes</a> (sva)</p>
+    <p>
+      <a href="https://www.radix-ui.com/themes/docs/theme/breakpoints#usage">
+        Radix Themes Responsive Props
+      </a>
+    </p>
+    <h3>
+      <a href="https://cva.style/docs">CVA</a>
+    </h3>
+    <h3>
+      <a href="https://panda-css.com/docs/concepts/recipes#atomic-recipe-or-cva">
+        Panda recipes
+      </a>
+    </h3>
+    <p>
+      Panda{" "}
+      <a href="https://panda-css.com/docs/concepts/slot-recipes">
+        slot recipes
+      </a>{" "}
+      (sva)
+    </p>
   </section>
 );
